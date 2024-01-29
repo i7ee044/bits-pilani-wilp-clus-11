@@ -10566,7 +10566,7 @@ Which of them is a Max heap?
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/21702-0
 01:41:13.205 --> 01:41:15.095
-I read representation right?
+Array representation right?
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/21730-0
 01:41:15.375 --> 01:41:18.562
@@ -10581,11 +10581,7 @@ into a tree like this, right?
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/21745-0
 01:41:21.985 --> 01:41:24.884
 You will translate that and then
-you will check is that a Max
-
-41c0dc01-97b6-433e-a1dc-1a50a4734f0c/21745-1
-01:41:24.884 --> 01:41:25.445
-heap or not.
+you will check is that a Max heap or not.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/21760-0
 01:41:27.685 --> 01:41:30.485
@@ -10604,7 +10600,7 @@ the first one, is a Max heap.
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/21803-0
 01:41:35.835 --> 01:41:39.523
 The others also you will draw it
-and see if it is really a maxi P
+and see if it is really a max heap
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/21803-1
 01:41:39.523 --> 01:41:40.305
@@ -10688,11 +10684,7 @@ So that's pretty much so.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/21966-0
 01:42:18.365 --> 01:42:20.525
-Now, do you all know what is he?
-
-41c0dc01-97b6-433e-a1dc-1a50a4734f0c/21968-0
-01:42:20.535 --> 01:42:21.195
-Pacification.
+Now, do you all know what is heapification
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/21974-0
 01:42:21.205 --> 01:42:22.585
@@ -10745,7 +10737,7 @@ into a complete binary tree.
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22064-0
 01:42:43.535 --> 01:42:45.815
 If it is not a heap, perform
-heap ification.
+heapification.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22074-0
 01:42:46.285 --> 01:42:48.075
@@ -10754,7 +10746,7 @@ have been learning, right?
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22084-0
 01:42:49.315 --> 01:42:50.265
-You know what is the Max?
+You know what is the Max heap?
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22097-0
 01:42:50.275 --> 01:42:52.235
@@ -10817,17 +10809,17 @@ not a heap.
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22229-0
 01:43:23.075 --> 01:43:26.445
 Then if I want to make it as a
-heap, I will perform heap
+heap, I will perform heapification
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22229-1
 01:43:26.445 --> 01:43:29.755
-ification yeah, so there's a lot
+yeah, so there's a lot
 of terminologies here.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22242-0
 01:43:29.765 --> 01:43:32.685
 So I want you to remember them
-technically all know it.
+technically you all know it.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22264-0
 01:43:32.695 --> 01:43:35.391
@@ -10848,17 +10840,17 @@ Students love jargons, right?
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22285-0
 01:43:40.365 --> 01:43:42.085
-He P fication is the right term.
+Heapification is the right term.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22316-0
 01:43:42.325 --> 01:43:45.982
-Application is the process of
+Heapification is the process of
 translating a non heap into a
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22316-1
 01:43:45.982 --> 01:43:49.395
 heap and if I wanted a Max heap
-I will perform Max CP5.
+I will perform Max heapify.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22319-0
 01:43:50.315 --> 01:43:50.865
@@ -10880,7 +10872,7 @@ deletion.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22373-0
 01:44:00.305 --> 01:44:03.691
-I can only delete the route and
+I can only delete the root and
 if I delete it I will place the
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22373-1
@@ -10894,7 +10886,7 @@ Yeah.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22389-0
 01:44:13.625 --> 01:44:14.755
-Timbren, Amit, all of you.
+Simran, Amit, all of you.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22395-0
 01:44:14.765 --> 01:44:16.415
@@ -10916,7 +10908,7 @@ And what about insertion?
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22455-0
 01:44:22.625 --> 01:44:26.191
-You will insert it at Zed which
+You will insert it at Z which
 is the insertion point and then
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22455-1
@@ -10926,8 +10918,8 @@ position.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22469-0
 01:44:28.525 --> 01:44:32.632
-So that is up keep bubbling, so
-insertion is upbeat, bubbling
+So that is up heap bubbling, so
+insertion is upheap, bubbling
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22469-1
 01:44:32.632 --> 01:44:34.685
@@ -10975,7 +10967,7 @@ doing that.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22547-0
 01:44:51.855 --> 01:44:53.725
-So here you are doing API
+So here you are doing upheap
 bubbling.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22560-0
@@ -10995,7 +10987,7 @@ started with heap sort, right?
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22587-0
 01:45:00.995 --> 01:45:04.845
 Heapsort is one of the
-applications of your keep.
+applications of your heap.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22615-0
 01:45:06.235 --> 01:45:09.579
@@ -11170,7 +11162,7 @@ merge sort.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22958-0
 01:46:41.555 --> 01:46:44.565
-Yeah, Merritt sort is a sorting
+Yeah, Merge sort is a sorting
 technique which is not in place.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22968-0
@@ -11189,7 +11181,7 @@ So far so good, all of you.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22988-0
 01:46:51.375 --> 01:46:52.085
-Krishna is.
+Krishna says.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/22994-0
 01:46:52.135 --> 01:46:53.105
@@ -11245,7 +11237,7 @@ he's no quadratic meaning in no
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23094-1
 01:47:15.917 --> 01:47:18.595
 case he will have, you know,
-North Square, etcetera.
+N Square, etcetera.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23108-0
 01:47:19.615 --> 01:47:22.892
@@ -11294,8 +11286,8 @@ I have a Max heap.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23190-0
 01:47:46.705 --> 01:47:49.575
-There is the largest element of
-that Maxim.
+Where is the largest element of
+that Max heap ?
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23193-0
 01:47:51.465 --> 01:47:52.225
@@ -11312,7 +11304,7 @@ there in the root, yeah.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23237-0
 01:48:02.605 --> 01:48:05.636
-Some bits, Robby, others I have
+Surbhi, others I have
 a min heap like this who will be
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23237-1
@@ -11329,7 +11321,7 @@ Which element?
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23252-0
 01:48:08.195 --> 01:48:09.185
-What can you comment about?
+What can you comment about
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23255-0
 01:48:09.195 --> 01:48:09.905
@@ -11370,7 +11362,7 @@ I will remove it.
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23336-0
 01:48:27.885 --> 01:48:30.235
 I will keep removing and what I
-get is a sorted out.
+get is a sorted order.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23349-0
 01:48:31.465 --> 01:48:33.775
@@ -11393,8 +11385,8 @@ It's a very old algorithm.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23409-0
 01:48:41.325 --> 01:48:45.411
-Heapsort is always big off and
-log in, so it's a very good
+Heapsort is always big O(n) and
+log n, so it's a very good
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23409-1
 01:48:45.411 --> 01:48:49.012
@@ -11408,11 +11400,11 @@ whatever.
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23431-0
 01:48:49.645 --> 01:48:53.117
 And you give me, I will have
-complexity as N log NI will not
+complexity as N log N I will not
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23431-1
 01:48:53.117 --> 01:48:55.165
-go to North Square, Ncube
+go to North Square, N cube
 etcetera.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23439-0
@@ -11437,11 +11429,7 @@ So Heapsort is always clear.
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23483-0
 01:49:06.035 --> 01:49:08.946
 He'll always give and log north
-and Heapsort is really a cool
-
-41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23483-1
-01:49:08.946 --> 01:49:09.415
-algorithm.
+and Heapsort is really a cool algorithm.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23488-0
 01:49:10.515 --> 01:49:11.185
@@ -11480,7 +11468,7 @@ built a heap out of it, right?
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23555-0
 01:49:25.235 --> 01:49:29.325
 And now remove everything and
-what you got this sorted.
+what you got is sorted.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23563-0
 01:49:31.445 --> 01:49:32.515
@@ -11502,7 +11490,7 @@ that process.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23601-0
 01:49:41.585 --> 01:49:42.815
-What you got is sorted out.
+What you got is sorted order.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23604-0
 01:49:44.325 --> 01:49:44.745
@@ -11548,7 +11536,7 @@ it and then removing everything.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23685-0
 01:50:04.735 --> 01:50:05.375
-Not clear, Krishna.
+Not clear, Krishna ?.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23702-0
 01:50:06.535 --> 01:50:09.335
@@ -11636,7 +11624,7 @@ into a CPT right and then apply
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23840-1
 01:50:44.077 --> 01:50:45.185
-hippie fication.
+heapification.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23866-0
 01:50:45.245 --> 01:50:48.737
@@ -11665,7 +11653,7 @@ created heap, delete all the
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23932-1
 01:50:58.635 --> 01:51:02.052
 elements, meaning first delete
-the route and then you know you
+the root and then you know you
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23932-2
 01:51:02.052 --> 01:51:05.307
@@ -11674,12 +11662,12 @@ down heap bubbling then some
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23932-3
 01:51:05.307 --> 01:51:07.965
-mother you know he could have
+other you know he could have
 got created again.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23934-0
 01:51:07.975 --> 01:51:08.715
-Delete the route.
+Delete the root.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/23940-0
 01:51:08.785 --> 01:51:09.555
@@ -11759,7 +11747,7 @@ small.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/24078-0
 01:51:46.555 --> 01:51:47.155
-Create a mini.
+Create a min heap.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/24084-0
 01:51:48.565 --> 01:51:49.085
@@ -11767,7 +11755,7 @@ Let's do this.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/24087-0
 01:51:50.295 --> 01:51:51.185
-Keeps out example.
+Heap sort example.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/24095-0
 01:51:51.235 --> 01:51:52.305
@@ -11811,7 +11799,7 @@ I will create a Max heap.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/24164-0
 01:52:11.165 --> 01:52:13.035
-So are they given numbers?
+So are the given numbers?
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/24169-0
 01:52:13.345 --> 01:52:14.095
@@ -11820,7 +11808,7 @@ Random numbers?
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/24184-0
 01:52:14.105 --> 01:52:18.595
 Or is it already in some sorted
-order 47213?
+order 4 7 2 1 3?
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/24191-0
 01:52:18.605 --> 01:52:19.965
@@ -11837,7 +11825,7 @@ out, so I will first create a
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/24219-1
 01:52:25.520 --> 01:52:27.925
-Max seep first approach of
+Max heap first approach of
 creating.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/24223-0
@@ -11847,11 +11835,11 @@ You already know correct.
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/24248-0
 01:52:29.495 --> 01:52:33.527
 You would have directly
-translated this into 47213 and
+translated this into 4 7 2 1 3 and
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/24248-1
 01:52:33.527 --> 01:52:36.385
-then you will apply edification
+then you will apply heapification
 on it.
 
 41c0dc01-97b6-433e-a1dc-1a50a4734f0c/24270-0
