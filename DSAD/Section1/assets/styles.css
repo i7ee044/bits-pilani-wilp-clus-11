@@ -95,7 +95,7 @@ body {
 }
 
 .course {
-    background-color: #ffecfc;
+    background-color: #ffebe3;
     border-radius: 10px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -119,7 +119,7 @@ body {
 }
 
 .course-preview {
-    background-image: linear-gradient(135deg, #ff0099, #ff9bd7);
+    background-image: linear-gradient(135deg,  #da3c00, #ffcdba);
     color: #fff;
     padding: 30px;
     max-width: 250px;

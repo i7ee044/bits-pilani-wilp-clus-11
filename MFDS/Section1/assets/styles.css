@@ -1,5 +1,9 @@
 /* lecture page */
 
+*:focus-visible {
+    outline: 2px dotted #000 !important;
+}
+
 .header {
     padding: 10px;
     margin-bottom: 20px;
@@ -17,9 +21,58 @@
     font-size: 30px;
 }
 
+.university-name a {
+    text-decoration: none;
+    color: #000;
+}
+
 .bits-logo {
     width: 80px;
     height: 80px;
+}
+
+.video-header {
+    padding: 15px;
+}
+
+.video-bitsLogoDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.video-university-name {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.video-bits-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.video-course-name {
+    padding-left: 20px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.back {
+    padding: 10px;
+    font-size: small;
+    cursor: pointer;
+}
+
+.back a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(45deg, #f6f6f6, #ffffff);
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .course-name {
@@ -33,13 +86,6 @@
     display: flex;
 }
 
-body {
-    background-image: linear-gradient(45deg, #f6f6f6, #a09cda);
-    font-family: 'Muli', sans-serif;
-    min-height: 100vh;
-    margin: 0;
-}
-
 .courses {
     display: flex;
     align-items: center;
@@ -49,7 +95,7 @@ body {
 }
 
 .course {
-    background-color: #fff;
+    background-color: #e6fff0;
     border-radius: 10px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -67,20 +113,22 @@ body {
 }
 
 .course h2 {
+    font-size: medium;
     letter-spacing: 1px;
     margin: 10px 0;
 }
 
 .course-preview {
-    background-color: #2A265F;
+    background-image: linear-gradient(135deg, #22874b, #b5ffd3);
     color: #fff;
     padding: 30px;
     max-width: 250px;
 }
 
 .course-preview a {
-    color: #fff;
+    color: #040404;
     display: inline-block;
+    font-weight: bold;
     font-size: 12px;
     opacity: 0.6;
     margin-top: 30px;
@@ -126,7 +174,7 @@ body {
 }
 
 .btn {
-    background-color: #2A265F;
+    background-color: #000000;
     border: 0;
     border-radius: 50px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
@@ -137,6 +185,12 @@ body {
     bottom: 30px;
     right: 30px;
     letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
 }
 
 /* SOCIAL PANEL CSS */
@@ -161,7 +215,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Muli';
+    font-family: 'Montserrat', sans-serif;
     position: relative;
     height: 169px;
     width: 370px;
@@ -210,7 +264,7 @@ body {
 .social-panel h4 {
     margin: 20px 0;
     color: #97A5CE;
-    font-family: 'Muli';
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
@@ -274,7 +328,7 @@ body {
     background-color: #001F61;
     border-radius: 10px 10px 0 0;
     color: #fff;
-    font-family: 'Muli';
+    font-family: 'Montserrat', sans-serif;
     padding: 7px 15px;
     position: fixed;
     bottom: 0;

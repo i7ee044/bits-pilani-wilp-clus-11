@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFDS - Lecture 1 | Section 1. BITS Pilani WILP | Cluster Batch 11</title>
+    <link href="./assets/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="video-header">
+        <div class="video-bitsLogoDiv">
+            <img class="video-bits-logo"
+                src="https://pub-11ae963f793f40098944d2d13b0b1c4b.r2.dev/BITS/BITS_Pilani-Logo.svg.png">
+            <div class="video-university-name">BITS Pilani Work Integrated Learning Programme | Data Structures and Algorithms Design | Section 1 | Lecture 3</div>
+        </div>
+    </div>
+    <div class="back"><a href="./lectures.html">< back</a></div>
+    <div class='video'>
+        <style>
+            html,
+            body,
+            #container {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+                background: #000;
+                color: #fff;
+                overflow: hidden;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            #player {
+                height: 85vh !important;
+            }
+
+            body {
+                height: 100vh;
+            }
+
+            #container {
+                position: absolute;
+                text-align: center
+            }
+
+            video {
+                outline: 0
+            }
+        </style>
+        <script src="https://use.fontawesome.com/20603b964f.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+        <script src="https://pub-11ae963f793f40098944d2d13b0b1c4b.r2.dev/player_assets/2MP5kG2N-AobbqYJS.js"></script>
+        <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <div id="player"></div>
+        <script type="text/javascript">
+            jwplayer("player").setup({
+                image: "./assets/lecture3.png",
+                height: window.innerHeight,
+                autostart: false,
+                file: 'https://pub-11ae963f793f40098944d2d13b0b1c4b.r2.dev/BITS/WILP/CLUSTER_11/M.Tech/Semester_1/MFDS/Section_1_Lecture Videos/lecture_3/dsad_lecture3.m3u8',
+                tracks: [{
+                    file: 'https://pub-11ae963f793f40098944d2d13b0b1c4b.r2.dev/BITS/WILP/CLUSTER_11/M.Tech/Semester_1/MFDS/Section_1_Lecture Videos/lecture3.vtt',
+                    label: 'English Subtitles'
+                }]
+            })
+        </script>
+    </div>
+</body>
+
+</html>
